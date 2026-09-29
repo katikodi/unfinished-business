@@ -28,32 +28,31 @@
   top: 0;
   left: 0;
   width: 100dvw;
-  height: 100dvh;
+  height: 100%;
   z-index: -1;
   pointer-events: none;
   overflow: hidden;
-}
-
-#purple-gradient-shape {
-  width: 100dvw;
-  height: 1214px;
-  fill: linear-gradient(180deg, var(--deep-purple) 1.25%, #BD8BFF 99.59%);
-  position: fixed;
-  top: 82vh;
 }
 #green-shape {
   width: 100dvw;
   height: 1658px;
   fill: #AECA95;
-  position: fixed;
+  position: absolute;
   top: 56vh;
 }
-#pink-gradient-shape {
+#pink-shape {
   width: 100dvw;
   height: 1727px;
   fill: linear-gradient(259deg, #FFFFFF05, var(--text));
-  position: fixed;
+  position: absolute;
   top: 33vh;
+}
+#purple-shape {
+  width: 100dvw;
+  height: 1214px;
+  fill: linear-gradient(180deg, var(--deep-purple) 1.25%, #BD8BFF 99.59%);
+  position: absolute;
+  top: 82vh;
 }
 
 #upper-header {
